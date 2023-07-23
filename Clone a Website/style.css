@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Poppins:wght@500&display=swap');
+                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.nav{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Zomato\ BG.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: left;
+    gap:10px;
+    flex-direction: row-reverse;
+}
+
+
+a{
+    margin-top: 3%;
+    margin-right: 3%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poppins', sans-serif;                                        
+}  
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin: 0 auto;
+    margin-top: 13em;
+    width: 51%;
+}
+
+span{
+    color: white;
+    padding-top: 4%;
+    font-weight: 400;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.restra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    color: rgb(172, 170, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vh;
+}
+
+h3{
+    font-size: 6vh;
+}
+.restra-container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10%;
+
+    width: 90%;
+}
+.box{
+    width: 40%;
+    size: justify;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid grey;
+}
+i{
+    padding-left: 4%;
+}
+
+p{
+    text-align: justify;
+    font-size: 30px;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    margin: 0px;
+}
